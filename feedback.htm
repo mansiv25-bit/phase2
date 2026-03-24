@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile & Course Portal</title>
+     <link rel="stylesheet" href="index.css"> 
+</head>
+<body>
+    <header>
+      <h1 clas="heading2">Student profile & Course Portal</h1>
+     <nav>
+        <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+                <li> <a href="course.html">Course</a></li>
+                <li> <a href="feedback.htm">feedback</a></li>
+                <li> <a href="contact.html">contact</a></li>
+            </ul>
+            </nav>
+        </header>
+    <main>
+
+<section class="feedback-container">
+    <form>
+
+        <h2>Give Your Feedback</h2>
+
+        <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+            <label>Phone Number</label>
+            <input type="number" placeholder="Enter your phone number">
+        </div>
+
+        <div class="form-group">
+            <label>Rate Our Courses</label>
+            <div class="options">
+                <label><input type="radio" name="rating"> Excellent</label>
+                <label><input type="radio" name="rating"> Good</label>
+                <label><input type="radio" name="rating"> Average</label>
+                <label><input type="radio" name="rating"> Poor</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Which courses are you interested in?</label>
+            <div class="options">
+                <label><input type="checkbox"> Web Development</label>
+                <label><input type="checkbox"> Python</label>
+                <label><input type="checkbox"> Data Structures</label>
+                <label><input type="checkbox"> UI/UX</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>How did you hear about us?</label>
+            <select>
+                <option>Select</option>
+                <option>Google</option>
+                <option>Friend</option>
+                <option>Social Media</option>
+                <option>Other</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Your Feedback</label>
+            <textarea rows="4" placeholder="Write your feedback..."></textarea>
+        </div>
+
+        
+        <button class="submit" type="submit">Submit Feedback</button>
+
+    </form>
+</section>
+  <a class="next" href="contact.html">Next</a>
+  <a class="back" href="grades.html">Back</a>
+    </main>
+    <footer class="footer">
+    <div class="scroll-text">
+        © 2026 My student Website | All Rights Reserved | Contact: example@gmail.com
+    </div>
+    
+    </footer>
+</body>
+</html>

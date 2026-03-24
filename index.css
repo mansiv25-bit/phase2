@@ -1,0 +1,346 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+ 
+header {
+    background-color: rgb(3, 71, 74);
+    color:aqua;
+} 
+nav{
+    padding: 10px;
+}
+
+a {
+    border: 2px white solid;
+    padding: 10px;
+    color:rgb(229, 237, 237);
+    font-size:20px;
+    display:inline-block;
+    border-radius: 10px;
+    background-color: rgb(18, 3, 66);
+}
+
+ul {
+    gap:20px;
+    margin: 10px;
+    display:flex;
+    justify-content:center;
+    list-style: none;
+} 
+
+main {
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 3px 0px 3px 0px;
+    background-image:url(images.jpg);
+    background-repeat:  no-repeat;
+    background-size: cover;
+} 
+
+h2 {
+    padding-top: 40px;
+    padding-bottom :2px;
+    color: rgb(10, 13, 17);
+    font-size: 70px;
+    text-shadow: 2px;
+    font-style: oblique;    
+}
+
+.box{
+    border:3px solid rgb(199, 196, 196);
+    padding: 20px;
+    background-color: #05075b;
+    color: rgb(235, 235, 244);
+    margin:0% 20% 3% 20%;
+    border-radius: 10px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+h1 {
+    color:rgb(232, 231, 227);
+    text-align: center;
+    font-size:60px ;       
+}
+
+
+table,td,th{
+    border:2px solid rgb(202, 200, 200); 
+    padding:10px 50px 10px 50px;
+    background-color: rgb(2, 8, 58);
+    color: rgb(153, 153, 156);
+    width:200px;
+    height: 2px;
+}
+
+caption {
+    padding: 10px;
+    font-family: cursive;
+    font-size: 40px;
+    color:rgb(33, 7, 58)
+}
+
+table {
+    width:80px;
+    margin:auto;
+    border-collapse:collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.Hobbies {
+    background-color: rgb(17, 15, 148);
+    color: rgb(229, 238, 247);
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 5px solid black;
+     padding: 30px 10px 0px 10px;
+    width: 550px;
+    height: 150px;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-left: 33%;
+}
+
+#class {
+    background-color:#143147;
+    margin: 20px 200px 20px  200px;
+    padding: 10px;
+    color: rgb(242, 245, 248);
+    border: 5px solid rgb(185, 176, 176);
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 300px; ;
+}
+
+.skills{
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 5px solid black;
+     padding: 30px 10px 0px 10px;
+    width: 550px;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    color: aliceblue;
+    background-color: #4E8D9C;  
+    margin-bottom: 30px;
+    margin-left: 33%;
+}  
+  
+.goals{
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 5px solid black;
+    padding: 30px 10px 0px 10px;
+    width: 550px;
+    height: 150px;
+    display:flex;
+    justify-content: center;
+    color: aliceblue; 
+    background-color: rgb(38, 183, 240);
+    margin-bottom: 30px;
+    margin-left: 33%;
+}
+
+h3 {
+    color: rgb(5, 19, 43);
+}
+
+.foot {
+    text-align: center;
+}
+
+.grades2 {
+    padding: 10px;
+    margin:20px;
+}
+
+.subject {
+    padding:20px 0px 10px 0px;
+}
+
+.next {
+    margin: 5px 0px 10px 0px;
+    padding:5px;
+
+}
+
+a:hover {
+    color:rgb(200, 21, 24);
+    font-size:25px;
+    transition-duration: 2s;
+}
+
+.form {
+    border: 3px solid grey(241, 234, 234);
+    border-radius: 10px;
+    margin: 1% 22% 1% 25%;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(190, 194, 230);
+}
+
+input {
+    font-size: 20px;
+}
+s
+.img {
+    width: 20%;
+    height: 29%;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+#contact{
+    background-image: url(img\ contact.jpg);
+}
+
+.footer {
+    width: 100%;
+    background: rgb(6, 72, 99);
+    color: rgb(239, 231, 231);
+    padding: 15px;
+    font-size: 20px;
+}
+
+.scroll-text {
+    display: inline-block;
+    animation: scroll-left 15s linear infinite;
+}
+
+@keyframes scroll-left {
+    from {
+        transform: translateX(200%);   
+    }
+    to {
+        transform: translateX(-200%);
+    }
+}
+
+.course-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px;
+}
+
+.course-card {
+    background-color:  #8bd1f2;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.course-card button {
+    padding: 10px 15px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.course-card button:hover {
+    background: #1d4ed8;
+}
+
+.feedback-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.options label {
+    font-weight: normal;
+}
+
+
+.submit{
+    width: 30%;
+    padding: 12px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.back{
+     align-items: left;
+
+}
+
+.next{
+    
+    align-items: end;
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
